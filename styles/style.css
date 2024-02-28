@@ -15,7 +15,7 @@ header{
     align-items: center;
     padding: 30px 90px;
 }
-.nav-title, .fact-title{
+.nav-title, .fact-title, .sonsop-title{
     font-size: 1.6rem;
     font-weight: 700;
     color: #131313;
@@ -119,7 +119,7 @@ main{
     margin: 50px;
 
 }
-.fact-description{
+.fact-description, .sonsor-description, .footer-description{
     font-size: 0.70rem;
     color: #727272;
 }
@@ -151,6 +151,42 @@ main{
 }
 /* fact section end */
 
+/* sonsor section start */
+.sonsor-content{
+    text-align: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.sponsor-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.sponsor-img{
+    width: 100px;
+}
+
+/* sonsor section end  */
+
+
+/* footer section start */
+
+.footer-container{
+    text-align: center;
+    background-color: #FF900E1A;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+footer{
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+
+/* footer section end */
+
 
 
 
@@ -177,6 +213,20 @@ main{
         flex-wrap: wrap;
         gap: 10px;
     }
+    .sponsor-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        padding-left: 20px;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    .footer-container{
+        padding: 5px;
+    }
+    footer{
+        margin: 0;
+    }
 }
 
 
@@ -186,4 +236,5 @@ main{
         max-width: 100%;
         margin: 0px;
     }
+    
 }
