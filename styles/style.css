@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    background-color: #FF900E1A;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+}
+.nav-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.nav-container ul{
+    display: flex;
+    gap: 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.nav-container ul> li{
+    list-style: none;
+    
+}
+.nav-container a{
+    text-decoration: none;
+    color: #424242;
+
+}
+.banner-content{
+    text-align: center;
+    margin-top: 30px;
+}
+.banner-title{
+    font-size: 2.5rem;
+    font-family: 800;
+}
+.banner-description{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #727272;
+}
+.btn-primary{
+    padding: 10px 15px;
+    background-color: #FF900E;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
