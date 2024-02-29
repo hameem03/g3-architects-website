@@ -79,7 +79,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .quick-img-container{
     display: grid;
@@ -109,6 +109,65 @@ main{
     margin: 10px 0;
 }
 /* quick section end */
+
+/* feature section start */
+.feature-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+}
+.feature-content{
+    max-width: 450px;
+}
+.feature-main{
+    margin-bottom: 40px;
+}
+.feature-title{
+    font-size: 2rem;
+    color: #131313;
+    border-left: 7px solid #FF900E;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.feature-another-content{
+    margin-bottom: 40px;
+}
+.feature-another-title{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-description,
+.feature-another-description{
+    font-size: 0.70rem;
+    color:#727272;
+    margin-bottom: 15px;
+}
+
+.architect{
+    width: 400px;
+    /* width: 100%;
+    height: 80%; */
+}
+
+.experience{
+    background-color: #FF900E;
+    max-width: 200px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 30px 15px;
+    position:relative;
+    bottom: 70px;
+    right: 50px;
+}
+.experience-title{
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+
+/* feature section end */
 
 /* fact section start */
 .fact-title{
@@ -203,12 +262,36 @@ footer{
         font-size: 2rem;
     }
     .banner-img{
-        max-width: 100%;
+        max-width: 70%;
         margin: 0px;
+        padding: 15px;
     }
     .quick-list-container{
         flex-wrap:wrap-reverse;
     }
+    .quick-img-container{
+        grid-template-columns: 1fr;
+    }
+    .feature-container{
+        flex-direction: column;
+    }
+    .architect{
+        width: 300px;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .feature-content{
+        width: 200px;
+        padding: 10px;
+    }
+    .experience{
+        padding: 5px;
+        width: 150px;
+        position: relative;
+
+    }
+
+
     .fact-box-container{
         flex-wrap: wrap;
         gap: 10px;
